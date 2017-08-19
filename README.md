@@ -2,8 +2,15 @@ RabbitTestHelper
 ===
 
 
-uso: 
+install:
+```shell
+$ npm install rabbit-test-helper --save-dev
+```
+
+use: 
 ```javascript
+
+const Factory = require("rabbit-test-helper")
 
 const config = {
   url: "amqp://localhost",
