@@ -102,7 +102,4 @@ describe("helperFactory", () => {
       })
     })
   })
-
-
-
 })
