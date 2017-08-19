@@ -1,0 +1,24 @@
+{
+  "name": "rabbit-test-helper",
+  "version": "1.0.0",
+  "description": "test helper to acceptance tests with rabbit-mq",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "test",
+    "acceptance",
+    "rabbitmq"
+  ],
+  "author": "Luiz Zamboni",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha-co": "^1.17.2"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "co": "^4.6.0"
+  }
+}
