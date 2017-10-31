@@ -1,10 +1,14 @@
 {
   "name": "rabbit-test-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "test helper to acceptance tests with rabbit-mq",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "repository": { 
+    "type" : "git", 
+    "url" : "https://github.com/admatic-tool/rabbit-test-helper.git"
   },
   "keywords": [
     "test",

@@ -24,9 +24,9 @@ module.exports = config => {
       const conn = yield this._getConnection()
       const ch = yield conn.createChannel()
       const { exchange } = config
-      debugger
+
       const ok = ch.publish(exchange.name, routingKey, new Buffer(content))
-      debugger
+
       ch.close()
       return ok
     }),
